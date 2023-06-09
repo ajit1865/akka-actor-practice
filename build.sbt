@@ -8,5 +8,6 @@ lazy val root = (project in file("."))
   )
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.8.2",
+  "ch.qos.logback" % "logback-classic" % "1.2.12",
   "com.typesafe.akka" %% "akka-testkit" % "2.8.2" % Test
 )
